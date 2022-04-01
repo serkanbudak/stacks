@@ -7,5 +7,7 @@ services:
             - "8090:80"
     app2:
         image: nginx
+        environment:
+            foo: $foo
         ports: 
             - "8091:80"
