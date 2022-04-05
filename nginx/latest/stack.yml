@@ -10,4 +10,4 @@ services:
         environment:
             foo: $foo
         ports: 
-            - "8092:80"
+            - "8094:80"
